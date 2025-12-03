@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OptimAIzed - Coming Soon</title>
-    <meta name="description" content="OptimAIzed - AI-Powered Workflow Automation. Coming soon.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>OptimAIzed AS</title>
+    <meta name="description" content="OptimAIzed AS - Consultancy within AI-Powered Workflow Automation and Process Optimization">
     <style>
         * {
             margin: 0;
@@ -16,99 +13,164 @@
         }
         
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #1A1A2E;
-            color: #EAEAEA;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            padding: 20px;
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.8;
+            padding: 60px 20px;
         }
         
         .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+        
+        header {
             text-align: center;
-            max-width: 600px;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e5e5e5;
         }
         
-        .logo {
-            font-size: 64px;
-            font-weight: 700;
-            margin-bottom: 20px;
-            color: #EAEAEA;
+        .company-name {
+            font-size: 32px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
         }
         
-        .logo .ai {
-            color: #00D4AA;
+        .company-type {
+            font-size: 14px;
+            font-weight: 400;
+            color: #666666;
+            letter-spacing: 3px;
+            text-transform: uppercase;
         }
         
-        h1 {
-            font-size: 36px;
+        main {
+            margin-bottom: 60px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            font-size: 18px;
             font-weight: 600;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, #00D4AA 0%, #00B894 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
         }
         
         p {
-            font-size: 18px;
-            color: #A0AEC0;
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
-        
-        .contact {
-            margin-top: 40px;
-        }
-        
-        .contact a {
-            color: #00D4AA;
-            text-decoration: none;
-            font-weight: 500;
             font-size: 16px;
-            transition: opacity 0.3s;
+            color: #4a4a4a;
+            margin-bottom: 16px;
+            text-align: justify;
         }
         
-        .contact a:hover {
-            opacity: 0.8;
+        .info-grid {
+            display: grid;
+            grid-template-columns: 140px 1fr;
+            gap: 12px 20px;
+            margin-bottom: 20px;
         }
         
-        .construction-icon {
-            font-size: 80px;
-            margin-bottom: 30px;
-            animation: float 3s ease-in-out infinite;
+        .info-label {
+            font-size: 14px;
+            color: #666666;
+            font-weight: 600;
         }
         
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+        .info-value {
+            font-size: 14px;
+            color: #1a1a1a;
+        }
+        
+        a {
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 1px solid #cccccc;
+            transition: border-color 0.2s;
+        }
+        
+        a:hover {
+            border-bottom-color: #1a1a1a;
+        }
+        
+        footer {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #e5e5e5;
+            font-size: 13px;
+            color: #999999;
         }
         
         @media (max-width: 768px) {
-            .logo {
-                font-size: 48px;
+            body {
+                padding: 40px 20px;
             }
-            h1 {
-                font-size: 28px;
+            
+            .company-name {
+                font-size: 26px;
             }
-            .construction-icon {
-                font-size: 60px;
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            
+            .info-label {
+                margin-top: 12px;
+            }
+            
+            p {
+                text-align: left;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="construction-icon">🚧</div>
-        <div class="logo">Optim<span class="ai">AI</span>zed</div>
-        <h1>Under Construction</h1>
-        <p>We're building something exciting. AI-powered workflow automation that transforms manual processes into automated clarity.</p>
-        <p style="font-size: 16px; margin-top: 20px;">Stay tuned.</p>
-        <div class="contact">
-            <a href="mailto:hello@optimaized.io">📧 hello@optimaized.io</a>
-        </div>
+        <header>
+            <h1 class="company-name">OptimAIzed AS</h1>
+            <p class="company-type">Consultancy</p>
+        </header>
+        
+        <main>
+            <section>
+                <h2>About</h2>
+                <p>OptimAIzed AS specializes in AI-powered workflow automation and process optimization. We design, implement, and manage intelligent automation systems using n8n, custom AI agents, and enterprise integrations.</p>
+                <p>Our approach transforms manual processes into automated clarity, delivering measurable efficiency gains for organizations across industries.</p>
+            </section>
+            
+            <section>
+                <h2>Services</h2>
+                <p>We offer end-to-end automation consulting, from workflow design and AI agent development to managed hosting and ongoing optimization. Our engagements typically range from focused workflow implementations to comprehensive automation ecosystems.</p>
+            </section>
+            
+            <section>
+                <h2>Contact Information</h2>
+                <div class="info-grid">
+                    <div class="info-label">Email</div>
+                    <div class="info-value"><a href="mailto:hello@optimaized.io">hello@optimaized.io</a></div>
+                    
+                    <div class="info-label">Web</div>
+                    <div class="info-value"><a href="https://optimaized.io">optimaized.io</a></div>
+                    
+                    <div class="info-label">Location</div>
+                    <div class="info-value">Norway</div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 OptimAIzed AS. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
