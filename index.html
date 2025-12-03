@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OptimAIzed - Workflows, OptimAIzed</title>
-    <meta name="description" content="AI-Powered Process Optimization. We build intelligent workflow automation using n8n, custom AI agents, and smart integrations. Transform manual processes in weeks, not months.">
+    <title>OptimAIzed - Coming Soon</title>
+    <meta name="description" content="OptimAIzed - AI-Powered Workflow Automation. Coming soon.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -19,30 +19,22 @@
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #1A1A2E;
             color: #EAEAEA;
-            line-height: 1.6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
         }
         
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Header */
-        header {
-            padding: 20px 0;
-            border-bottom: 1px solid rgba(0, 212, 170, 0.2);
-        }
-        
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            text-align: center;
+            max-width: 600px;
         }
         
         .logo {
-            font-size: 26px;
+            font-size: 64px;
             font-weight: 700;
+            margin-bottom: 20px;
             color: #EAEAEA;
         }
         
@@ -50,380 +42,73 @@
             color: #00D4AA;
         }
         
-        .nav-links {
-            display: flex;
-            gap: 30px;
-            list-style: none;
-        }
-        
-        .nav-links a {
-            color: #EAEAEA;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .nav-links a:hover {
-            color: #00D4AA;
-        }
-        
-        /* Hero Section */
-        .hero {
-            padding: 120px 0;
-            text-align: center;
-        }
-        
-        .hero-logo {
-            font-size: 72px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: #EAEAEA;
-        }
-        
-        .hero-logo .ai {
-            color: #00D4AA;
-        }
-        
-        .hero h1 {
-            font-size: 48px;
+        h1 {
+            font-size: 36px;
             font-weight: 600;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             background: linear-gradient(135deg, #00D4AA 0%, #00B894 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         
-        .hero .subtitle {
-            font-size: 20px;
-            color: #A0AEC0;
-            margin-bottom: 40px;
-            font-weight: 400;
-        }
-        
-        .hero .description {
+        p {
             font-size: 18px;
             color: #A0AEC0;
-            margin-bottom: 40px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: #00D4AA;
-            color: #1A1A2E;
-            padding: 16px 44px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 16px;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(0, 212, 170, 0.3);
-        }
-        
-        /* Services Section */
-        .services {
-            padding: 80px 0;
-            background: rgba(255, 255, 255, 0.02);
-        }
-        
-        .section-title {
-            font-size: 42px;
-            text-align: center;
-            margin-bottom: 60px;
-            color: #00D4AA;
-        }
-        
-        .service-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-        
-        .service-card {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 40px;
-            border-radius: 12px;
-            border: 1px solid rgba(0, 212, 170, 0.1);
-            transition: border-color 0.3s, transform 0.3s;
-        }
-        
-        .service-card:hover {
-            border-color: rgba(0, 212, 170, 0.5);
-            transform: translateY(-5px);
-        }
-        
-        .service-card h3 {
-            color: #00D4AA;
-            margin-bottom: 15px;
-            font-size: 24px;
-        }
-        
-        .service-card p {
-            color: #A0AEC0;
-            margin-bottom: 20px;
-        }
-        
-        .price {
-            font-size: 18px;
-            font-weight: 600;
-            color: #00B894;
-        }
-        
-        /* Case Studies */
-        .case-studies {
-            padding: 80px 0;
-        }
-        
-        .case-study {
-            background: rgba(255, 255, 255, 0.05);
-            padding: 40px;
-            border-radius: 12px;
             margin-bottom: 30px;
-            border-left: 4px solid #00D4AA;
+            line-height: 1.6;
         }
         
-        .case-study h3 {
-            color: #00D4AA;
-            margin-bottom: 15px;
-            font-size: 28px;
-        }
-        
-        .case-study .metrics {
-            display: flex;
-            gap: 40px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-        
-        .metric {
-            text-align: center;
-        }
-        
-        .metric-value {
-            font-size: 32px;
-            font-weight: 700;
-            color: #00D4AA;
-        }
-        
-        .metric-label {
-            color: #A0AEC0;
-            font-size: 14px;
-        }
-        
-        /* Contact Section */
         .contact {
-            padding: 80px 0;
-            text-align: center;
-            background: rgba(0, 212, 170, 0.05);
-        }
-        
-        .contact h2 {
-            font-size: 42px;
-            margin-bottom: 20px;
-            color: #00D4AA;
-        }
-        
-        .contact p {
-            font-size: 18px;
-            color: #A0AEC0;
-            margin-bottom: 40px;
-        }
-        
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
             margin-top: 40px;
-            flex-wrap: wrap;
         }
         
-        .contact-item {
+        .contact a {
             color: #00D4AA;
             text-decoration: none;
             font-weight: 500;
+            font-size: 16px;
+            transition: opacity 0.3s;
         }
         
-        /* Footer */
-        footer {
-            padding: 40px 0;
-            text-align: center;
-            border-top: 1px solid rgba(0, 212, 170, 0.2);
-            color: #A0AEC0;
+        .contact a:hover {
+            opacity: 0.8;
         }
         
-        footer .logo-footer {
-            font-size: 20px;
-            font-weight: 600;
-            color: #EAEAEA;
-            margin-bottom: 10px;
+        .construction-icon {
+            font-size: 80px;
+            margin-bottom: 30px;
+            animation: float 3s ease-in-out infinite;
         }
         
-        footer .logo-footer .ai {
-            color: #00D4AA;
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
         }
         
-        /* Responsive */
         @media (max-width: 768px) {
-            .hero-logo {
+            .logo {
                 font-size: 48px;
             }
-            .hero h1 {
-                font-size: 32px;
+            h1 {
+                font-size: 28px;
             }
-            .case-study .metrics {
-                gap: 20px;
-            }
-            .contact-info {
-                flex-direction: column;
-                gap: 15px;
+            .construction-icon {
+                font-size: 60px;
             }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">Optim<span class="ai">AI</span>zed</div>
-                <ul class="nav-links">
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#case-studies">Case Studies</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <div class="container">
+        <div class="construction-icon">🚧</div>
+        <div class="logo">Optim<span class="ai">AI</span>zed</div>
+        <h1>Under Construction</h1>
+        <p>We're building something exciting. AI-powered workflow automation that transforms manual processes into automated clarity.</p>
+        <p style="font-size: 16px; margin-top: 20px;">Stay tuned.</p>
+        <div class="contact">
+            <a href="mailto:hello@optimaized.io">📧 hello@optimaized.io</a>
         </div>
-    </header>
-
-    <section class="hero">
-        <div class="container">
-            <div class="hero-logo">Optim<span class="ai">AI</span>zed</div>
-            <h1>Workflows, OptimAIzed.</h1>
-            <p class="subtitle">AI-Powered Process Optimization</p>
-            <p class="description">We build intelligent automation using n8n, custom AI agents, and smart integrations. Transform your manual chaos into automated clarity—in weeks, not months.</p>
-            <a href="#contact" class="cta-button">Start Your Optimization Journey</a>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <h3>🤖 AI Agent Development</h3>
-                    <p>Custom AI agents for data analysis, decision support, and automation. Built for your specific domain and integrated with your existing systems.</p>
-                    <div class="price">From €5,000</div>
-                </div>
-                
-                <div class="service-card">
-                    <h3>⚡ n8n Workflow Automation</h3>
-                    <p>End-to-end workflow design, implementation, and hosting. Connect your APIs, automate your processes, eliminate manual work.</p>
-                    <div class="price">From €2,500</div>
-                </div>
-                
-                <div class="service-card">
-                    <h3>🔌 MCP Server Development</h3>
-                    <p>Model Context Protocol servers for AI-powered API gateways. Token-optimized, dual transport (STDIO + HTTP), production-ready.</p>
-                    <div class="price">From €3,000</div>
-                </div>
-                
-                <div class="service-card">
-                    <h3>📊 Custom Dashboards</h3>
-                    <p>Real-time dashboards with multi-source data integration. React + Tailwind, agent-based architecture, beautiful and functional.</p>
-                    <div class="price">From €8,000</div>
-                </div>
-                
-                <div class="service-card">
-                    <h3>☁️ Managed n8n Hosting</h3>
-                    <p>Fully managed n8n instances on Google Cloud. 99.9% uptime, automatic backups, monthly updates, priority support.</p>
-                    <div class="price">From €150/month</div>
-                </div>
-                
-                <div class="service-card">
-                    <h3>📦 Package Bundles</h3>
-                    <p>Starter (€8k), Professional (€18k), Enterprise (€35k+). Complete automation ecosystems delivered in 4-8 weeks.</p>
-                    <div class="price">Custom pricing</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="case-studies" id="case-studies">
-        <div class="container">
-            <h2 class="section-title">Proven Results</h2>
-            
-            <div class="case-study">
-                <h3>Tynset Kulturhus - Cinema Operations</h3>
-                <p>Built an AI-powered cinema analytics platform with real-time dashboards, peer comparison, and automated weekly reports. Integrated DX Cinema API, Filmweb peer data, and Google Analytics.</p>
-                <div class="metrics">
-                    <div class="metric">
-                        <div class="metric-value">15hrs</div>
-                        <div class="metric-label">Saved per week</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">6</div>
-                        <div class="metric-label">Data agents</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">90%</div>
-                        <div class="metric-label">Token savings</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">4wks</div>
-                        <div class="metric-label">Delivery time</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="case-study">
-                <h3>Yinson Solar Park - HSE Digital Inspections</h3>
-                <p>Transformed paper-based HSE inspections into a digital system with 6 automated workflows, email authentication, and Google Drive integration. ISO 45001:2018 compliant.</p>
-                <div class="metrics">
-                    <div class="metric">
-                        <div class="metric-value">6</div>
-                        <div class="metric-label">Inspection forms</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">100%</div>
-                        <div class="metric-label">Digital compliance</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">0</div>
-                        <div class="metric-label">Data loss</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">3wks</div>
-                        <div class="metric-label">Deployment</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2>Ready to OptimAIze?</h2>
-            <p>Let's discuss how OptimAIzed can transform your workflows.</p>
-            <a href="mailto:hello@optimaized.io" class="cta-button">Get In Touch</a>
-            <div class="contact-info">
-                <a href="mailto:hello@optimaized.io" class="contact-item">📧 hello@optimaized.io</a>
-                <a href="https://linkedin.com/company/optimaized" class="contact-item">💼 LinkedIn</a>
-                <span class="contact-item">📍 Norway</span>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="logo-footer">Optim<span class="ai">AI</span>zed</div>
-            <p>&copy; 2025 OptimAIzed. All rights reserved.</p>
-            <p style="margin-top: 10px; font-size: 14px; color: #00D4AA;">"Workflows, OptimAIzed."</p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
